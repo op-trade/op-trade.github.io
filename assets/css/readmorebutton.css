@@ -1,0 +1,94 @@
+.readmore {
+    border-radius: 4px;
+    background-color: #090985;
+    border-style: solid;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    
+  }
+
+  .readmore:hover {
+    box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  
+  .readmore span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    
+  }
+  
+  .readmore span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .readmore:hover span {
+    padding-right: 25px;
+    
+  }
+  
+  .readmore:hover span:after {
+    opacity: 1;
+    right: 0;
+  
+  }
+  
+  
+
+  .btm {
+    border-radius: 4px;
+    background-color: #0467a0;
+    border-style: solid;
+    color: #ffffff;
+    text-align: center;
+    transition: all 0.25s;
+    cursor: pointer;
+    margin: 5px;
+    
+  }
+
+  .btm:hover {
+    box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  
+  .btm span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    
+  }
+  
+  .btm span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btm:hover span {
+    padding-right: 25px;
+    
+  }
+  
+  .btm:hover span:after {
+    opacity: 1;
+    right: 0;
+  
+  }
+  
+  
