@@ -12,7 +12,13 @@
     margin: 5px;
     
   }
+  body, html{
 
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+    }
+    
   .readmore:hover {
     box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   }
